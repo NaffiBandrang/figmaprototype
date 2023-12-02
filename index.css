@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    background: #765C3D !important;
+}
+
+#logo {
+    width: 48.632px;
+    height: 44px;
+    flex-shrink: 0;
+}
+
+.nav-link {
+    color: #F2D2AE !important;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#landing {
+    background: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(./images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#title {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 5.3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px; /* 112.5% */
+    letter-spacing: -1.28px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-shrink: 0;
+}
+
+#landing p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 125% */
+}
+
+.div-title {
+    text-align: start !important;
+}
+
+#landing a {
+    display: inline-flex;
+    align-items: flex-start;
+    border-radius: 999px;
+    background: #B59066 !important;
+    padding: 12px 32px;
+    gap: 8px;
+
+    color: var(--button-text-button-primary-text, #FFF);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 120% */
+}
+
+/* Page 2 CSS Styling */
+#gallery-header {
+    color: #765C3D;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#gallery-p {
+    color: #765C3D;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#album1 {
+    background: #FFF;
+    box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.25);  
+}
+
+#album1 h1 {
+    color: #765C3D;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#album1 p {
+    color: #765C3D;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+#album2 {
+    background: #FFF;
+    box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.25);  
+}
+
+#album3 {
+    background: #FFF;
+    box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.25);  
+}
+
+#album2 h1 {
+    color: #765C3D;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#album2 p {
+    color: #765C3D;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#album3 h1 {
+    color: #765C3D;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#album3 p {
+    color: #765C3D;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Contact Page CSS Styling */
+
+
+#contact {
+    background: #FFF2E4;
+    height: 100vh;
+}
+
+#contact h1 {
+    color: #765C3D;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#contact p {
+    color: #765C3D;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#contact label {
+    color: #B59066;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#contact button {
+    border-radius: 999px;
+    background: #B59066;
+    border: 0;
+}
+
+#contact-pic {
+    background: url(./images/bg2.png);
+    background-color: rgba(0, 0, 0, 0.59);
+    background-blend-mode: color-burn;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-container {
+    height: 100vh;
+}
+/* Footer Section */
+footer {
+    background: #B59066;
+}
+
+footer div {
+    color: #FFF2E4;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    #contact-pic {
+        display: none;
+    }
+
+    #title {
+        font-size: 3rem;
+    }
+}
